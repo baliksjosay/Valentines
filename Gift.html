@@ -3,14 +3,7 @@
 <head>
 <tittle>This is your valentines 2019 gift from Joseph Balikuddembe</tittle>
 <style>  
-    body{
-  padding:50vh 0;
-  background-color:#fff;
-}
-
-
-.heart {
-  animation: heartbeat 1s infinite;
+   .heart {
   background-color: red;
   display: inline-block;
   height: 50px;
@@ -22,6 +15,7 @@
   left: 45%; top: 45%;
   width: 50px;
 }
+
 .heart:before,
 .heart:after {
   content: "";
@@ -32,31 +26,17 @@
   width: 50px;
 }
 
+.heart:before {
+  top: -25px;
+  left: 0;
+}
+
 .heart:after {
   left: 25px;
   top: 0;
 }
-
-@keyframes heartbeat
-{
-  0%
-  {
-    transform: scale( 1 )
-      rotate(-45deg);    
-  }
-  20%
-  {
-    transform: scale( 1.25 )
-      rotate(-45deg);  
-  }
-   40%
-  {
-    transform: scale( 1.5 )
-      rotate(-45deg);
-  }
-}
     .bg{
-background-color: hsl(34, 53%, 82%);
+        background-color: hsl(34, 53%, 82%);
 background-image: repeating-linear-gradient(45deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px, hsla(197, 62%, 11%, 0.5) 10px,
   hsla(5, 53%, 63%, 0) 10px, hsla(5, 53%, 63%, 0) 35px, hsla(5, 53%, 63%, 0.5) 35px, hsla(5, 53%, 63%, 0.5) 40px,
   hsla(197, 62%, 11%, 0.5) 40px, hsla(197, 62%, 11%, 0.5) 50px, hsla(197, 62%, 11%, 0) 50px, hsla(197, 62%, 11%, 0) 60px,
@@ -71,6 +51,7 @@ repeating-linear-gradient(135deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px,
   hsla(35, 91%, 65%, 0) 80px, hsla(35, 91%, 65%, 0) 90px, hsla(5, 53%, 63%, 0.5) 90px, hsla(5, 53%, 63%, 0.5) 110px,
   hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 140px, hsla(197, 62%, 11%, 0.5) 140px, hsla(197, 62%, 11%, 0.5) 160px
 );
+    }
     }
   </style>
 </head>
